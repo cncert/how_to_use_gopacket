@@ -11,18 +11,7 @@ import (
 )
 
 func main() {
-	// devices, err := pcap.FindAllDevs()
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// for _, device := range devices {
-	// 	// fmt.Println(device)
-	// 	for _, addr := range device.Addresses {
-	// 		fmt.Printf("device: %s: %s\n", device.Name, addr)
-	// 		fmt.Println("- Subnet mask: ", addr.Netmask)
-	// 	}
-	// }
+	sicmp()
 
 	var (
 		device       string = "eth0"
